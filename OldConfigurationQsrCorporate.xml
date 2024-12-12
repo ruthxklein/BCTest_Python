@@ -1,0 +1,1056 @@
+<BC_Table>
+    <MEInfo>
+        <MEInfo_Extra_Features>
+            <Item>
+                <Name>Crypto HW Version</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>RCR 13010656133: MEInfo to display crypto FW/HW version</Justification>
+            </Item>
+            <Item>
+                <Name>Crypto FW Version</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>RCR 13010656133: MEInfo to display crypto FW/HW version</Justification>
+            </Item>
+            <Item>
+                <Name>HuC FW</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>RCR 14020831984 - MEInfo - Display HuC ARB SVN</Justification>
+            </Item>
+        </MEInfo_Extra_Features>
+        <MEInfo_Missing_Features>
+            <Item>
+                <Name>Platform Binding Status</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>RCR 1508873673: [IOTG] Add platform support for Socketed MCP Platform - ADL-PS; MTL-PS</Justification>
+            </Item>
+        </MEInfo_Missing_Features>
+        <MEInfo_Different_Formant>
+            <Item>
+                <Name>CPU Capability</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Value can be different; depends on the WLAN device used</Justification>
+            </Item>
+            <Item>
+                <Name>Intel(R) ISH OEM Config</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Bug 13011440560: Branding 1.0 RCR bugs found during review</Justification>
+             </Item>
+            <Item>
+                <Name>Intel(R) PTT OEM Config</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Bug 13011440560: Branding 1.0 RCR bugs found during review</Justification>
+             </Item>
+            <Item>
+                <Name>FIDO Device Onboarding State OEM Config</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Bug 13011440560: Branding 1.0 RCR bugs found during review</Justification>
+             </Item>
+             <Item>
+                <Name>Consent</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Bug 13010939662: Consent appear as Unknown</Justification>
+             </Item>
+            <Item>
+                <Name>Intel(R) System Security Report</Name>
+                <Brand>Not selected</Brand>
+                <Justification>bug 15016283550: "Intel(R) ICPS Entitlement eligible" is still enabled</Justification>
+            </Item>
+            <Item>
+                <Name>Intel(R) BIOS Resilience L2</Name>
+                <Brand>Not selected</Brand>
+                <Justification>bug 15016283550: "Intel(R) ICPS Entitlement eligible" is still enabled</Justification>
+            </Item>
+            <Item>
+                <Name>Intel(R) System Resource Defense</Name>
+                <Brand>Not selected</Brand>
+                <Justification>bug 15016283550: "Intel(R) ICPS Entitlement eligible" is still enabled</Justification>
+            </Item>
+            <Item>
+                <Name>NMVe based FW Recovery</Name>
+                <Brand>Not selected</Brand>
+                <Justification>bug 15016283550: "Intel(R) ICPS Entitlement eligible" is still enabled</Justification>
+            </Item>
+            <Item>
+                <Name>Intel(R) ICPS</Name>
+                <Brand>Not selected</Brand>
+                <Justification>bug 15016283550: "Intel(R) ICPS Entitlement eligible" is still enabled</Justification>
+            </Item>
+            <Item>
+                <Name>PCH Name</Name>
+                <Brand>Not selected/Intel(R) vPro Enterprise/Intel(R) vPro Essentials/Intel-based PC</Brand>
+                <Justification>Bug 13012239270: MEInfo shows MTL/Meteor Lake Platform instead of ARL-H</Justification>
+            </Item>
+        </MEInfo_Different_Formant>
+    </MEInfo>
+    <MEManuf>
+        <Manuf_Missing_Tests></Manuf_Missing_Tests>
+        <Manuf_Extra_Tests></Manuf_Extra_Tests>
+        <Manuf_Missing_Lines></Manuf_Missing_Lines>
+        <Manuf_Extra_Lines></Manuf_Extra_Lines>
+    </MEManuf>
+    <FPT>
+        <Fpt_Missing_Nvars_Or_FPFs></Fpt_Missing_Nvars_Or_FPFs>
+        <Fpt_Extra_Nvars_Or_FPFs>
+            <Item>
+                <Name>SW Sequencing Mode</Name>
+                <Justification>RCR 1508873673: [IOTG] Add platform support for Socketed MCP Platform - ADL-PS; MTL-PS</Justification>
+            </Item>
+        </Fpt_Extra_Nvars_Or_FPFs>
+    </FPT>
+    <FIT>
+        <Fit_Missing_Features>
+			<Item>
+				<Name>FitData/Dnx/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+				<Justification>bug 13011529416 </Justification>
+			</Item>
+			<Item>
+				<Name>FitData/Dnx/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+				<Justification>bug 13011529416 </Justification>
+			</Item>
+			<Item>
+				<Name>FitData/Dnx/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+				<Justification>bug 13011529416 </Justification>
+			</Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/IntelMeFirmwareUpdate/FwUpdateOemId/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/SmxSupport/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/Rsa1KSupport/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/IntelMeFirmwareUpdate/FwUpdateOemId/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/SmxSupport/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/Rsa1KSupport/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/IntelMeFirmwareUpdate/FwUpdateOemId/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpStackConfig/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelMeKernel/MctpConfiguration/MctpPcieAddress/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Removed as part of MTL bug fix #13010668077</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/SmxSupport/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/IntelPttConfiguration/Rsa1KSupport/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>NVAR not supported for Lite SKU. RCR 1307852020 NVARs Automation in mfit</Justification>
+            </Item>
+        </Fit_Missing_Features>
+        <Fit_Extra_Features>
+            <Item>
+                <Name>FitData/FlashSettings/FlashComponents/SpiSwSeqEnable/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Port PCH binding configuration to MTL-P PTL-P</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/PchBindingRegionConfiguration/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Harness update v0.63 MTP-M w/MTL-M SMIP Change (Harness #85)</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashSettings/FlashComponents/SpiSwSeqEnable/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Port PCH binding configuration to MTL-P PTL-P</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/PchBindingRegionConfiguration/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Harness update v0.63 MTP-M w/MTL-M SMIP Change (Harness #85)</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/AunitSubPartition/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p682_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p281_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashSettings/FlashComponents/SpiSwSeqEnable/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Port PCH binding configuration to MTL-P PTL-P</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/PchBindingRegionConfiguration/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update v0.63 MTP-M w/MTL-M SMIP Change (Harness #85)</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FWUpdate/FWUpdateImage/AUNIT_enabled/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/AunitSubPartition/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p682_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p281_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashSettings/FlashComponents/SpiSwSeqEnable/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Port PCH binding configuration to MTL-P PTL-P</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/PchBindingRegionConfiguration/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update v0.63 MTP-M w/MTL-M SMIP Change (Harness #85)e</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FWUpdate/FWUpdateImage/AUNIT_enabled/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/AunitSubPartition/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p682_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p281_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FWUpdate/FWUpdateImage/AUNIT_enabled/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/AunitSubPartition/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p682_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SupportedMCPSteps/arl_p281_a0/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Add support for ARL products with MTL-S firmware</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FWUpdate/FWUpdateImage/AUNIT_enabled/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Fix bug 13011165779</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlashSettings/FlashComponents/SpiSwSeqEnable/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Port PCH binding configuration to MTL-P PTL-P</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/DescriptorHashCalc/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>RCR 13011475723: MFIT to support skipping desc hash upon request</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort12P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort12P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort12P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort34P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort34P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltPort34P2Pshare/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update v2.66 MTP-P A0 SoC (w/ARL-P and MTL-P CPU) (Harness #82)</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>	
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_0_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>			
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>	
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/SocGpioIOSStateCsiCfg/gppc_1_term/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>csi update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelManageability/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/IntelAmt/IntelAmtConfiguration/MngHwStatus/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>MngHwStatus - requirement update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltShareLicEn/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>WW16 Harness update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltShareLicEn/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>WW16 Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlexIO/Type-CSubsystemConfiguration/TboltShareLicEn/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>WW16 Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/Ifwi_IntelMePmcRegion/RoSizeOptimization/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>RCR 13010976278 lite sku size optimization - hidden setting and not affecting image</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/Ifwi_IntelMePmcRegion/RoSizeOptimization/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>RCR 13010976278 lite sku size optimization - hidden setting and not affecting image</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/Ifwi_IntelMePmcRegion/RoSizeOptimization/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>RCR 13010976278 lite sku size optimization - hidden setting and not affecting image</Justification>
+            </Item>
+        </Fit_Extra_Features>
+        <Fit_Different_Attributes>
+			<Item>
+                <Name>FitData/PlatformProtection/IntelFpfFirmwareVersionControlConfiguration/GscSvnEnabled/value/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011529416</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/PlatformProtection/IntelFpfFirmwareVersionControlConfiguration/GscSvnEnabled/value/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011529416</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/PlatformProtection/IntelFpfFirmwareVersionControlConfiguration/GscSvnEnabled/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>BUG 13011529416</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake M Chipset - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake M Chipset - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P Chipset - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P Chipset - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - FWUpdate</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/CpuStraps/CpuStraps/HyperThreadingDisable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/CpuStraps/CpuStraps/HyperThreadingDisable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/CpuStraps/CpuStraps/HyperThreadingDisable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/NetworkingConfiguration/PlatformVproNIC/vproNicEnabled/label/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Made a string clearer</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/value/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Added MTL-PS as a SKU Emulation option</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/value/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/NetworkingConfiguration/PlatformVproNIC/vproNicEnabled/label/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Made a string clearer</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Added MTL-PS as a SKU Emulation option</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/StrapConfigurations/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessLabel/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessRevision/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Added MTL-PS as a SKU Emulation option</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/StrapConfigurations/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessLabel/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessRevision/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/NetworkingConfiguration/PlatformVproNIC/vproNicEnabled/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Made a string clearer</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Added MTL-PS as a SKU Emulation option</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/ImageSettings/OutputConfigXmlFileName/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/StrapConfigurations/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessLabel/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/DescriptorRegion/HarnessGlobalData/HarnessRevision/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Harness update</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/Emulation/Sku/value_list/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Added MTL-PS as a SKU Emulation option</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Gpio/GpioTuning/I3c0I2c0CurSrcStr/label/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Extra space</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelManageability/IntelManageabilityAppConfiguration/ISMSupported/help_text/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Change of unicode chars to ASCII</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/help_text/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/label/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/FlashLayout/SubPartitions/EsePackage/EseSubPartition/label/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Debug/EseFirmwareDebuggingOverrides/label/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>BUG 13011349074</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/help_text/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelManageability/IntelManageabilityAppConfiguration/ISMSupported/help_text/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Change of unicode chars to ASCII</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/GlobalSettings/IfwiSettings/RegionOrder/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>RCR 15013011743: Added region 7 - PchBindingRegion</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/IntelManageability/IntelManageabilityAppConfiguration/ISMSupported/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Change of unicode chars to ASCII</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Offset/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/ExclusionRanges/Range2Size/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Fixed typos</Justification>
+            </Item>
+			<Item>
+                <Name>FitData/GlobalSettings/ImageSettings/BuildOutputFilename/value/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Change from backslash to forward slash</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Power/PchThermalReporting/PchThrmlRprtngEn/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>harness update WW50</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Power/PchThermalReporting/PchThrmlRprtngEn/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>harness update WW50</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/Power/PchThermalReporting/PchThrmlRprtngEn/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>harness update WW50</Justification>
+            </Item>
+             <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/NetworkingConnectivity/WirelessLanConfiguration/MeClinkEnable/value/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Bug 13011449349</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake M Chipset - Consumer - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake M Chipset - Corporate - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake M Chipset - Lite - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P Chipset - Consumer - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P Chipset - Corporate - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P Chipset - Lite - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Consumer - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Corporate - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+            <Item>
+                <Name>FitData/PlatformProtection/BootGuardConfiguration/BtGuardBspInitEnable/help_text/-Intel(R) MeteorLake P and ArrowLake P Chipsets - Lite - SPI</Name>
+                <Justification>Bug 15014989302</Justification>
+            </Item>
+        </Fit_Different_Attributes>
+    </FIT>
+    <Help>
+        <Extra_command></Extra_command>
+        <Missing_command></Missing_command>
+    </Help>
+</BC_Table>
